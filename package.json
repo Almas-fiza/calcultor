@@ -1,0 +1,28 @@
+{
+  "name": "calcultor-cli1",
+  "version": "1.0.0",
+  "description": "Simple Cli calculator for node projects.",
+  "main": "index.js",
+  "bin":{
+    "calcultor-cli1": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Almas Fiza",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^5.3.0",
+    "types": "file:../node"
+  },
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.11",
+    "ts-node": "^10.9.1"
+  }
+}
