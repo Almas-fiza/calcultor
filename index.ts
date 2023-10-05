@@ -3,8 +3,6 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
-import { main } from "ts-node/dist/bin";
-
 const sleep = () => {
     return new Promise((resolve) => setTimeout(resolve, 5000));
 };
